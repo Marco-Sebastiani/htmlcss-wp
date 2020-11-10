@@ -13,6 +13,14 @@ a{
   text-decoration: none;
 }
 
+h1 , h2{
+  color:#504741;
+}
+
+h2 , p{
+font-family: 'Roboto', sans-serif;
+
+}
 
 .float-left{
   float: left;
@@ -162,9 +170,18 @@ aside.col-right{
 
 aside .box{
   width: 100%;
-  height: 200px;
   margin-bottom: 20px;
-  background-color: #0f0;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.box h2{
+  margin-bottom: 20px;
+}
+
+.box p{
+  line-height: 1.6;
 }
 
 /* INIZIO FOOTER */
