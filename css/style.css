@@ -186,8 +186,53 @@ aside .box{
 
 /* INIZIO FOOTER */
 footer{
-  background-color: #00f;
-  width: 100%;
-  height: 80px;
+  background-color: white;
+  padding:5px;
+  border-radius: 5px;
+  text-align: center;
+
 }
+
+.copy{
+  color:#ccc;
+  font-style: italic;
+}
+
+.social{
+  width:600px;
+  margin: auto;
+}
+
+.box-fb {
+  width: 33%;
+  height: 150px;
+  background-color:green;
+  font-size: 35px;
+  /* top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); */
+}
+
+.box-ig{
+  width: 33%;
+  height: 150px;
+  background-color:blue;
+  font-size: 35px;
+  /* top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); */
+}
+
+
+.box-git{
+  width: 33%;
+  height: 150px;
+  background-color:red;
+  font-size: 35px;
+  /* top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); */
+
+}
+
 /* /FOOTER */
