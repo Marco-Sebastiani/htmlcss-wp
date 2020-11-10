@@ -9,7 +9,7 @@ body{
 }
 
 a{
-  color: #31800f;
+  color: #0f0;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav .items li a{
 }
 
 .items li:hover{
-  background-color: lightgrey;
+  background-color: #ddd;
 }
 /* /Header-bottom */
 
@@ -97,14 +97,42 @@ nav .items li a{
 
 /* INIZIO CORPO PRINCIPALE */
 main{
+  width: 100%;
   padding: 15px 0;
 }
 
 aside.col-left{
   width: 20%;
-  height: 250px;
-  background-color: #5c027a;
+  /* height: 250px; */
+  background-color: #fff;
+  padding:5px;
+  border-radius: 5px;
+
 }
+
+.col-left-ico{
+  width: 20%;
+}
+
+.col-left-ico i{
+  color: #ffc107;
+  font-size: 30px;
+}
+
+.col-left-title{
+  width: 80%;
+}
+
+
+ul.col-left-menu{
+  list-style: none;
+}
+
+ul.col-left-menu li{
+  margin: 5px 0;
+}
+
+
 
 section{
   width: calc(60% - 40px);
