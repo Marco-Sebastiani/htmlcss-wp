@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/natural-pattern.png);
+}
+
+.float-left{
+  float: left;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 1000px;
+  /* height: 100%; */
+  margin:10px auto;
+}
+
+/* INIZIO HEADER */
+
+header{
+  width: 100%;
+  height: 150px;
+}
+
+.header-top{
+  width: 100%;
+  height:120px;
+  background-color: #0f0;
+  border: 3px solid #fff;
+}
+
+.header-bottom{
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+}
+
+/* / HEADER */
+
+/* INIZIO CORPO PRINCIPALE */
+main{
+  padding: 15px 0;
+}
+
+aside.col-left{
+  width: 20%;
+  height: 250px;
+  background-color: #5c027a;
+}
+
+section{
+  width: calc(60% - 40px);
+  height: 160px;
+  margin: 0 20px;
+  background-color: #00f;
+}
+
+aside.col-right{
+  width: 20%;
+  /* height: 600px; */
+}
+
+aside .box{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: #0f0;
+}
+
+/* INIZIO FOOTER */
+footer{
+  background-color: #00f;
+  width: 100%;
+  height: 80px;
+}
+/* /FOOTER */
