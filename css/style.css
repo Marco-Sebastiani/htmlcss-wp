@@ -199,34 +199,18 @@ footer{
 }
 
 .social{
-  width:600px;
+  width:100%;
   line-height: 150px;
   margin: auto;
 }
 
-.box-fb {
-  width: 33%;
-  height: 150px;
+.box-social{
+  width: calc(100% / 3);
+  padding: 20px;
   color: #ccc;
   font-size: 35px;
 }
 
-.box-ig{
-  width: 33%;
-  height: 150px;
-  color: #ccc;
-  font-size: 35px;
 
-}
-
-
-.box-git{
-  width: 33%;
-  height: 150px;
-  color: #ccc;
-  font-size: 35px;
-
-
-}
 
 /* /FOOTER */
